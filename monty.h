@@ -90,6 +90,7 @@ void rotr(stack_t **stack, unsigned int line_count);
 void opcode(stack_t **stack, char *str, unsigned int line_cnt);
 void m_queue(stack_t **stack, unsigned int line_number);
 void m_stack(stack_t **stack, unsigned int line_number);
+void get_op(char *op, stack_t **stack, unsigned int line_number);
 
 int is_digit(char *string);
 int isnumber(char *str);
