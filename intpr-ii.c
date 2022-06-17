@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <stdarg.h>
 
 /**
  * stack - adds data to top of stack
