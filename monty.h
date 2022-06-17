@@ -88,6 +88,8 @@ void pstr(stack_t **stack, unsigned int line_cnt);
 void rotl(stack_t **stack, unsigned int line_count);
 void rotr(stack_t **stack, unsigned int line_count);
 void opcode(stack_t **stack, char *str, unsigned int line_cnt);
+void m_queue(stack_t **stack, unsigned int line_number);
+void m_stack(stack_t **stack, unsigned int line_number);
 
 int is_digit(char *string);
 int isnumber(char *str);
@@ -95,6 +97,7 @@ int isnumber(char *str);
 stack_t *add_node(stack_t **stack, const int n);
 stack_t *queue_node(stack_t **stack, const int n);
 void free_stack(stack_t *stack);
+
 size_t print_stack(const stack_t *stack);
 
 #endif /* MONTY_H */
