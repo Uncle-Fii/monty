@@ -4,6 +4,7 @@
  * stack - adds data to top of stack
  * @stack: doubly linked list
  * @line_number: the line
+ * Return: no return
  */
 void stack(stack_t **stack, unsigned int line_number)
 {
